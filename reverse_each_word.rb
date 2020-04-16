@@ -1,6 +1,6 @@
 require 'pry'
 def reverse_each_word(sentence)
-  sentence_array = []
+  #sentence_array = []
   reversed_word = ""
   reversed_sentence = ""
   sentence_array = sentence.split
