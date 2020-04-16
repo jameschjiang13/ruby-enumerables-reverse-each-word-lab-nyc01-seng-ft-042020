@@ -1,5 +1,4 @@
 require 'pry'
-=begin
 def reverse_each_word(sentence)
   sentence_array = []
   reversed_word = ""
@@ -11,10 +10,11 @@ def reverse_each_word(sentence)
   end
   reversed_sentence.strip
 end
-=end
 
+=begin
 def reverse_each_word(sentence)
   sentence_array = sentence.split
   reversed_array = sentence_array.collect {|word| word.reverse}
   reversed_sentence = reversed_array.join(" ")
 end
+=end
